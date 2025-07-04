@@ -22,7 +22,7 @@ body{
     width: 30%;
 }
 .logo img{
-    width: 200px;
+    width: 180px;
 }
 
 .links{
@@ -32,7 +32,7 @@ body{
 .links>ul>li{
     list-style: none;
     display:inline-block;
-    margin-left: 30px;
+    margin-left: 20px;
     font-size: 15px;
     font-weight: bold;
     color: gray;
@@ -69,4 +69,51 @@ body{
 
 .btn1:hover {
     background-color: rgb(141 198 63);
+}
+
+.hero-section{
+    width: 100%;
+    height: 600px;
+}
+
+.text-side{
+    display: inline-block;
+    width: 45%;
+    /* border: 2px solid red; */
+    vertical-align: middle;
+    padding: 0px 5px 5px 40px;
+}
+.title{
+    font-size: 30px;
+    color: #000;
+}
+#saylani{
+    color:rgb(141 198 63);
+}
+.text-side>h1{
+    padding-bottom: 20px;
+}
+.text-side>p{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.btn2{
+    border: 1px solid black;
+    color: black;
+    font-size: 15px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-side{
+    display: inline-block;
+    width: 48%;
+    margin: 20px 0px;
+    /* border: 2px solid blue; */
+}
+.image-side>img{
+    width: 550px;
+    text-align: center;
+    vertical-align: middle;
 }
